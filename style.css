@@ -1,0 +1,68 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: #111111;
+	font-family: sans-serif;
+	color: white;
+}
+.container {
+	max-width: 768px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	height: 100vh;
+}
+h1 {
+	color: #ffffff;
+	flex: 0 0 100%;
+	text-align: center;
+}
+
+a {
+	text-align: center;
+}
+
+a:link {
+	text-decoration: none;
+	color: white;
+}
+
+a,
+.copytoclip {
+	flex: auto;
+	margin: 0 1rem;
+	height: 5rem;
+	width: 2rem;
+	background-color: #111111;
+}
+@media (min-width: 720px) {
+	a,
+	.copytoclip {
+		flex: 0 0 20%;
+	}
+}
+
+a,
+button {
+	color: white;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+button {
+	outline: none;
+	border: none;
+	background-color: #111111;
+}
+#copied {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+}
+.hidden {
+	/* display: none; */
+}
