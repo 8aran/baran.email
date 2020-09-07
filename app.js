@@ -8,14 +8,14 @@ copyarea.addEventListener('click', () => {
 	textarea.select();
 	document.execCommand('copy');
 	textarea.remove();
-
-	copiedMsg();
+	alert('Copied Email.');
+	// copiedMsg();
 });
 
-function copiedMsg() {
-	const toshow = document.getElementById('copied');
-	toshow.classList.remove('hidden');
-	// setTimeout(() => {
-	// 	toshow.classList.add('hidden');
-	// }, 3000);
-}
+// function copiedMsg() {
+// 	const toshow = document.getElementById('copied');
+// 	toshow.classList.remove('hidden');
+// 	setTimeout(() => {
+// 		toshow.classList.add('hidden');
+// 	}, 3000);
+// }
