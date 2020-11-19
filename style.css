@@ -21,7 +21,7 @@ h1 {
 	text-align: center;
 }
 
-a {
+#mailtoemail {
 	text-align: center;
 }
 
@@ -30,7 +30,7 @@ a:link {
 	color: white;
 }
 
-a,
+#mailtoemail,
 .copytoclip {
 	flex: auto;
 	margin: 0 1rem;
@@ -39,13 +39,13 @@ a,
 	background-color: #111111;
 }
 @media (min-width: 720px) {
-	a,
+	#mailtoemail,
 	.copytoclip {
 		flex: 0 0 20%;
 	}
 }
 
-a,
+#mailtoemail,
 button {
 	color: white;
 	font-size: 1.5rem;
@@ -65,4 +65,17 @@ button {
 }
 .hidden {
 	display: none;
+}
+
+#whois {
+	color: white;
+	font-size: 26px;
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+#twitter {
+	text-decoration: underline;
 }
