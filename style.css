@@ -37,6 +37,7 @@ a:link {
 	height: 5rem;
 	width: 2rem;
 	background-color: #111111;
+	cursor: pointer;
 }
 @media (min-width: 720px) {
 	#mailtoemail,
