@@ -57,6 +57,7 @@ button {
 	outline: none;
 	border: none;
 	background-color: #111111;
+	cursor: pointer;
 }
 #copied {
 	position: absolute;
